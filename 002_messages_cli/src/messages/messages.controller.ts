@@ -9,5 +9,7 @@ export class MessagesController {
   createMessage() {}
 
   @Get('/:id')
-  getMessage() {}
+  getMessage() {
+    return 'get Hello'
+  }
 }
